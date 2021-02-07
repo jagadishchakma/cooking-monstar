@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(255, 239, 97);
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: #2c08a3;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding-left: 40px;
+}
+
+.nav-link {
+    color: black;
+    font-weight: 400;
+}
+
+.search {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.search-box {
+    background-color: white;
+}
+
+#search-input {
+    width: 85%;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#search {
+    background-color: #29094e;
+    width: 15%;
+    float: right;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.meal {
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.meal:hover>.card>.details {
+    display: block;
+}
+
+
+.details:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.modal-footer {
+    justify-content: flex-start;
+}
+
+.modal-footer ul {
+    list-style: none;
+}
+
+.modal-footer h1,
+h4 {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.modal-footer i {
+    color: green;
+}
